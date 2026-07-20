@@ -16,8 +16,6 @@ Retail marketing teams need to understand how customer characteristics, spending
 ├── data/
 │   └── marketing_campaign.xlsx
 ├── docs/
-│   ├── Business_Requirements_Document.docx
-│   ├── Business_Requirements_Document.pdf
 │   ├── Business_Requirements_Document.md
 │   └── Data_Quality_Report.md
 └── README.md
@@ -41,4 +39,3 @@ Retail marketing teams need to understand how customer characteristics, spending
 ## Current Status
 
 Project planning and initial data-quality review are complete. No dashboard has been created yet.
-
