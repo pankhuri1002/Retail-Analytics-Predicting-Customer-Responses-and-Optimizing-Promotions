@@ -2,17 +2,54 @@
 
 ## Project Overview
 
-This business analytics project uses customer and marketing campaign data to understand which customer groups are more likely to respond to retail promotions. The project will support better customer targeting, clearer campaign reporting, and more focused promotional planning.
+This business analytics project examines how customer characteristics, spending, purchase activity, and earlier campaign acceptance relate to response in the latest marketing campaign. The goal is to help the marketing team prioritize stronger customer segments for the next promotion.
 
-This repository currently contains the project foundation and dataset. Dashboard development and final analysis will be added in later stages.
+## Interactive Dashboard
 
-## Business Problem
+[Open the interactive campaign response dashboard](https://retail-promotion-response-dashboard.arpit2432.chatgpt.site)
 
-Retail marketing teams need to understand how customer characteristics, spending habits, purchase channels, and past campaign behavior relate to promotion response. Without a clear view of these patterns, campaigns may be sent to broad customer groups and promotional spending may be less effective.
+The dashboard includes six global filters for age group, income band, previous campaign history, latest response, purchase activity, and spending level. All KPI cards, charts, and recommended actions update together.
 
-## Current Repository Contents
+### KPI widgets
+
+- Latest campaign responders
+- Latest campaign non-responders
+- Customers who accepted at least one previous campaign
+- Total customers in the current filtered view
+
+### Dashboard visuals
+
+1. Latest response likelihood by number of previous campaigns accepted
+2. Latest response and previous acceptance by age group
+3. Latest response and previous acceptance by income band
+4. Latest response and previous acceptance by spending level
+5. Latest response and previous acceptance by purchase activity
+
+The source version is available at [`dashboard/index.html`](dashboard/index.html). It is a self-contained interactive HTML file and can also be downloaded and opened in a browser.
+
+## Main Findings
+
+- Previous campaign acceptance is the strongest historical prioritization signal. Latest response increased from 8.2% among customers with no earlier acceptance to 31.1% after one, 50.6% after two, and 79.5% after three previous acceptances.
+- Very-high-spending customers recorded a 30.0% latest response rate, compared with 5.5% among low-spending customers.
+- High and very-high purchase-activity groups responded more often than lower-activity groups.
+- The 70K–100K income band had a 27.9% latest response rate; income should still be used with other behavior signals.
+- Age differences were smaller, and the 18–30 segment contained only ten customers, so age should be treated as a supporting factor.
+
+## Recommended Actions
+
+- Prioritize customers who accepted one or more earlier campaigns.
+- Within that audience, give additional priority to high spenders, active purchasers, and recently engaged customers.
+- Use age and income only as supporting segmentation factors.
+- Test the prioritized audience against a control group before scaling the campaign.
+- Track response rate, conversion value, and campaign cost in future campaigns to validate targeting effectiveness.
+
+These findings describe historical response patterns and should not be presented as guaranteed predictions or as a validated machine-learning model.
+
+## Repository Contents
 
 ```text
+├── dashboard/
+│   └── index.html
 ├── data/
 │   └── marketing_campaign.xlsx
 ├── docs/
@@ -21,21 +58,18 @@ Retail marketing teams need to understand how customer characteristics, spending
 └── README.md
 ```
 
-## Documents
+## Data Notes
 
-- [Business Requirements Document](docs/Business_Requirements_Document.md) — defines the project objectives, scope, stakeholders, requirements, constraints, assumptions, and expected business value.
-- [Data Quality Report](docs/Data_Quality_Report.md) — records the checks performed on the dataset and the issues that should be handled before analysis.
-- [Dataset](data/marketing_campaign.xlsx) — anonymized customer-level marketing campaign data containing 2,240 records and 30 columns.
+- Dataset grain: one row per customer
+- Customer records: 2,240
+- Cleaned columns: 28
+- Missing income values are retained as `Null` and shown as `Missing` in the dashboard.
+- Ages above 100 are retained but shown as `Invalid/Unknown` for age-based analysis.
+- `Alone`, `YOLO`, and `Absurd` marital-status values were grouped as `Others`.
+- Constant columns `Z_CostContact` and `Z_Revenue` were removed.
 
-## Planned Next Steps
+## Tools Used
 
-1. Confirm KPI definitions.
-2. Prepare the dataset for analysis.
-3. Explore customer response patterns.
-4. Identify useful customer segments.
-5. Design and build the dashboard.
-6. Document findings and recommendations.
-
-## Current Status
-
-Project planning and initial data-quality review are complete. No dashboard has been created yet.
+- Excel for limited source-data cleaning
+- Tableau concepts for KPI and segmentation design
+- HTML, CSS, and JavaScript for the interactive portfolio dashboard
