@@ -8,7 +8,10 @@ This business analytics project examines how customer characteristics, spending,
 
 [Open the interactive campaign response dashboard](https://retail-promotion-response-dashboard.arpit2432.chatgpt.site)
 
-The dashboard includes six global filters for age group, income band, previous campaign history, latest response, purchase activity, and spending level. All KPI cards, charts, and recommended actions update together.
+The dashboard has no global filters, so the KPI cards and core campaign-history view always show the complete customer population. Two chart-specific controls support focused analysis without changing the rest of the dashboard:
+
+- A dropdown switches the response comparison between age, income, and spending.
+- An age-group selector applies only to the purchase-channel and web-visits chart.
 
 ### KPI widgets
 
@@ -20,10 +23,10 @@ The dashboard includes six global filters for age group, income band, previous c
 ### Dashboard visuals
 
 1. Latest response likelihood by number of previous campaigns accepted
-2. Latest response and previous acceptance by age group
-3. Latest response and previous acceptance by income band
-4. Latest response and previous acceptance by spending level
-5. Latest response and previous acceptance by purchase activity
+2. Latest response and previous acceptance by age, income, or spending
+3. Web, store, and catalogue purchases compared with monthly web visits
+
+The dashboard displays the exact Low, Medium, High, and Very High spending-band definitions beside the spending view.
 
 The source version is available at [`dashboard/index.html`](dashboard/index.html). It is a self-contained interactive HTML file and can also be downloaded and opened in a browser.
 
