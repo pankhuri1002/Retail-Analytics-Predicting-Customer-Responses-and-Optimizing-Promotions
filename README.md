@@ -11,7 +11,7 @@ This business analytics project examines how customer characteristics, spending,
 The dashboard has no global filters, so the KPI cards and core campaign-history view always show the complete customer population. Two chart-specific controls support focused analysis without changing the rest of the dashboard:
 
 - A dropdown switches the response comparison between age, income, and spending.
-- An age-group selector applies only to the purchase-channel and web-visits chart.
+- An age-group selector applies only to the preferred purchase-channel chart.
 
 ### KPI widgets
 
@@ -24,9 +24,19 @@ The dashboard has no global filters, so the KPI cards and core campaign-history 
 
 1. Latest response likelihood by number of previous campaigns accepted
 2. Latest response and previous acceptance by age, income, or spending
-3. Web, store, and catalogue purchases compared with monthly web visits
+3. Preferred purchase channel: web, store, catalogue, or tied channels
+4. Product-category spending: latest responders vs non-responders
+5. Latest response rate by recency
+6. Latest and previous campaign response by customer tenure cohort
 
 The dashboard displays the exact Low, Medium, High, and Very High spending-band definitions beside the spending view.
+
+The recommendation panel connects these findings to future campaign decisions:
+
+- who to prioritize using previous response history and recency;
+- what to promote using product-category spending;
+- where to deliver the offer using preferred purchase channel; and
+- how to adapt loyalty or welcome messaging using customer tenure.
 
 The source version is available at [`dashboard/index.html`](dashboard/index.html). It is a self-contained interactive HTML file and can also be downloaded and opened in a browser.
 
