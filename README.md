@@ -18,7 +18,7 @@ The dashboard has no global filters, so the KPI cards and core campaign-history 
 - Latest campaign responders
 - Latest campaign non-responders
 - Customers who accepted at least one previous campaign
-- Total customers in the current filtered view
+- Total customers
 
 ### Dashboard visuals
 
@@ -44,14 +44,18 @@ The source version is available at [`dashboard/index.html`](dashboard/index.html
 
 - Previous campaign acceptance is the strongest historical prioritization signal. Latest response increased from 8.2% among customers with no earlier acceptance to 31.1% after one, 50.6% after two, and 79.5% after three previous acceptances.
 - Very-high-spending customers recorded a 30.0% latest response rate, compared with 5.5% among low-spending customers.
-- High and very-high purchase-activity groups responded more often than lower-activity groups.
+- Customers purchasing within 30 days had a 23.9% latest response rate, compared with 5.6% among customers whose last purchase was more than 90 days ago.
+- Latest responders spent more on average than non-responders in every product category, with the largest absolute differences in wine and meat.
+- Customers who joined in 2012 had a higher latest response rate than the 2013 and 2014 join-year cohorts; tenure should be treated as a supporting loyalty signal.
 - The 70K–100K income band had a 27.9% latest response rate; income should still be used with other behavior signals.
 - Age differences were smaller, and the 18–30 segment contained only ten customers, so age should be treated as a supporting factor.
 
 ## Recommended Actions
 
 - Prioritize customers who accepted one or more earlier campaigns.
-- Within that audience, give additional priority to high spenders, active purchasers, and recently engaged customers.
+- Within that audience, give additional priority to high spenders and recently engaged customers.
+- Match the offer to the product categories responders value most and deliver it through the customer's preferred purchase channel.
+- Use loyalty-led messaging for established customers and welcome or education-led offers for newer customers.
 - Use age and income only as supporting segmentation factors.
 - Test the prioritized audience against a control group before scaling the campaign.
 - Track response rate, conversion value, and campaign cost in future campaigns to validate targeting effectiveness.
