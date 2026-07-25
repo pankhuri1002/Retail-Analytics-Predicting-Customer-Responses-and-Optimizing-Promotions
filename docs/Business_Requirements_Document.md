@@ -1,9 +1,8 @@
 **BUSINESS REQUIREMENTS DOCUMENT**
 
-**Retail Promotion Response  
-Optimization Dashboard**
+**Retail Promotion Response Analysis and Campaign Optimization**
 
-Understanding customer response to improve retail promotions
+Using historical response patterns to improve promotional campaigns
 
 | **Project sponsor / manager** | Saurabh                                             |
 |-------------------------------|-----------------------------------------------------|
@@ -15,32 +14,13 @@ Understanding customer response to improve retail promotions
 
 # 1. Executive Summary
 
-PromoScope Insights will develop an analytical dashboard to explain
-which customer segments respond to retail promotions and how response
-differs by demographic, household, spending, and purchasing-channel
-characteristics. The solution will provide evidence-based insights and
-an interpretable propensity view to help marketing teams target future
-promotions more efficiently and improve campaign return on investment.
+PromoScope Insights will analyse historical customer behaviour and campaign response patterns to identify higher-response customer segments. The project will provide an interactive dashboard and evidence-based recommendations to help marketing teams improve future promotional campaigns without claiming individual customer predictions.
 
-# 2. Project Objectives
+# 2. Project Objective
 
-- Measure key campaign results, including total customers, responders,
-  non-responders, response rate, and acceptance of previous campaigns.
+Analyse historical customer behaviour and campaign responses to identify high-response customer segments and provide data-driven recommendations for improving future promotional campaigns.
 
-- Identify customer groups with higher and lower response rates based on
-  age, education, marital status, income, household details, recency,
-  spending, and purchase behavior.
-
-- Use past campaign and customer behavior to identify the main factors
-  linked with response and highlight customers who may be more likely
-  to respond to future promotions.
-
-- Create an interactive dashboard that allows users to filter results
-  and compare customer groups, response rates, spending, and purchase
-  channels.
-
-- Provide clear recommendations for future promotions, supported by
-  dashboard findings and important data limitations.
+To support this objective, the project will measure campaign KPIs, compare response rates across relevant customer and behavioural segments, analyse spending and purchasing patterns, and communicate actionable recommendations through an interactive dashboard.
 
 # 3. Project Scope
 
@@ -49,8 +29,7 @@ promotions more efficiently and improve campaign return on investment.
 - Review the provided customer and campaign dataset and check it for
   missing, duplicate, or unusual values.
 
-- Analyze customer details such as age, education, marital status,
-  income, household composition, registration date, and recency.
+- Analyze relevant customer and behavioural details such as age, income, recency, spending, purchase channels, and discount-purchase behaviour.
 
 - Study product spending, web visits, deal purchases, and purchases made
   through web, catalog, and store channels.
@@ -82,6 +61,8 @@ promotions more efficiently and improve campaign return on investment.
 
 - Automatically sending promotions to customers.
 
+- Building a predictive model, assigning individual customer response probabilities, or producing an individual target-customer score.
+
 # 4. Stakeholders and Responsibilities
 
 | **Stakeholder**            | **Responsibility**                                                                             |
@@ -105,7 +86,7 @@ enhancement.
 | BR-02  | High         | Calculate total customers, responders, non-responders, response rate, and acceptance results for previous campaigns.            | Provide a clear summary of campaign performance.                     |
 | BR-03  | High         | Compare response across customer details, including age, income, and recency.                                                   | Identify customer groups with different response patterns.           |
 | BR-04  | High         | Compare response with product spending and purchases made through web, catalog, store, and deal channels.                       | Understand how spending and purchase behavior relate to response.    |
-| BR-05  | High         | Create an interactive dashboard with filters and show both customer count and response rate when comparing groups.              | Make the dashboard easy to explore and avoid misleading comparisons. |
+| BR-05  | High         | Create an interactive dashboard with chart-specific controls and show both customer count and response rate when comparing groups. | Make the dashboard easy to explore and avoid misleading comparisons. |
 | BR-06  | Medium       | Compare acceptance across previous campaigns and the latest campaign using clear labels.                                        | Understand how campaign response has differed across campaigns.      |
 | BR-07  | Medium       | Summarize the main findings and recommend customer groups for future campaign testing.                                          | Support better targeting decisions without overstating the results.  |
 | BR-08  | Low          | Provide short instructions explaining the dashboard filters and measures.                                                       | Help users understand and reuse the dashboard.                       |
