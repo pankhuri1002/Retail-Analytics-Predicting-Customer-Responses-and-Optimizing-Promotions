@@ -24,10 +24,10 @@ The dashboard displays the exact Low, Medium, High, and Very High spending-band 
 
 The recommendation panel connects these findings to future campaign decisions:
 
-- who to prioritize using previous response history and recency;
+- who to prioritize using previous response history, spending, and recency;
 - what to promote using product-category spending;
-- how customers distribute purchases across web, store, and catalogue; and
-- how to adapt loyalty or welcome messaging using customer tenure.
+- where customers purchase using web, store, and catalogue purchase volumes; and
+- how to adapt offers using customers’ discount-purchase behaviour.
 
 The source version is available at [`dashboard/index.html`](dashboard/index.html). It is a self-contained interactive HTML file and can also be downloaded and opened in a browser.
 
@@ -37,19 +37,21 @@ The source version is available at [`dashboard/index.html`](dashboard/index.html
 - Very-high-spending customers recorded a 30.0% latest response rate, compared with 5.5% among low-spending customers.
 - Customers purchasing within 30 days had a 23.9% latest response rate, compared with 5.6% among customers whose last purchase was more than 90 days ago.
 - Latest responders spent more on average than non-responders in every product category, with the largest absolute differences in wine and meat.
-- Customers who joined in 2012 had a higher latest response rate than the 2013 and 2014 join-year cohorts; tenure should be treated as a supporting loyalty signal.
-- The 70K–100K income band had a 27.9% latest response rate; income should still be used with other behavior signals.
+- Discount-purchase behaviour does not have a simple linear relationship with response. Customers with no discounted purchases recorded a 34.8% response rate, while customers with 6+ discounted purchases recorded 20.4%; the no-discount group contains only 46 customers and should be interpreted cautiously.
+- Store recorded the highest overall purchase volume (12,970 purchases), followed by web (9,150) and catalogue (5,963).
+- The 70K–100K income band had a 27.9% latest response rate; income should still be used with other behaviour signals.
 - Age differences were smaller, and the 18–30 segment contained only ten customers, so age should be treated as a supporting factor.
 
 ## Recommended Actions
 
 - Prioritize customers who accepted one or more earlier campaigns.
-- Within that audience, give additional priority to high spenders and recently engaged customers.
-- Match the offer to the product categories responders value most and use overall channel purchase volume to guide channel-specific campaign investment.
-- Use loyalty-led messaging for established customers and welcome or education-led offers for newer customers.
+- Within that audience, give additional priority to high spenders and customers who purchased recently.
+- Match promotions to product interests, particularly the categories on which likely responders spend most, rather than sending one generic offer.
+- Use store, web, and catalogue purchase volumes to guide channel investment, while avoiding the assumption that purchase channel is the same as communication preference.
+- Use premium products, loyalty rewards, or exclusive benefits for customers who usually purchase without discounts; use clear coupons or limited-time deals for frequent discount buyers.
 - Use age and income only as supporting segmentation factors.
-- Test the prioritized audience against a control group before scaling the campaign.
-- Track response rate, conversion value, and campaign cost in future campaigns to validate targeting effectiveness.
+- Test each prioritized group against a control group before scaling the campaign.
+- Track response rate, incremental sales, conversion value, and campaign cost in future campaigns to validate targeting effectiveness.
 
 These findings describe historical response patterns and should not be presented as guaranteed predictions or as a validated machine-learning model.
 
