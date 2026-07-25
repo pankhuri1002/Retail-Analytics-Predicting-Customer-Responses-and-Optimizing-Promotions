@@ -1,8 +1,8 @@
-# Retail Analytics: Predicting Customer Responses and Optimizing Promotions
+# Retail Promotion Response Analysis and Campaign Optimization
 
 ## Project Overview
 
-This business analytics project examines how customer characteristics, spending, purchase activity, and earlier campaign acceptance relate to response in the latest marketing campaign. The goal is to help the marketing team prioritize stronger customer segments for the next promotion.
+This business analytics project examines how historical customer characteristics, spending, purchase activity, and earlier campaign acceptance relate to response in the latest marketing campaign. Its objective is to analyse historical customer behaviour and campaign responses to identify high-response customer segments and provide data-driven recommendations for improving future promotional campaigns.
 
 ## Interactive Dashboard
 
@@ -46,14 +46,14 @@ The source version is available at [`dashboard/index.html`](dashboard/index.html
 
 - Prioritize customers who accepted one or more earlier campaigns.
 - Within that audience, give additional priority to high spenders and customers who purchased recently.
-- Match promotions to product interests, particularly the categories on which likely responders spend most, rather than sending one generic offer.
+- Match promotions to product interests, particularly the categories on which historically higher-response segments spend most, rather than sending one generic offer.
 - Use store, web, and catalogue purchase volumes to guide channel investment, while avoiding the assumption that purchase channel is the same as communication preference.
 - Use premium products, loyalty rewards, or exclusive benefits for customers who usually purchase without discounts; use clear coupons or limited-time deals for frequent discount buyers.
 - Use age and income only as supporting segmentation factors.
 - Test each prioritized group against a control group before scaling the campaign.
 - Track response rate, incremental sales, conversion value, and campaign cost in future campaigns to validate targeting effectiveness.
 
-These findings describe historical response patterns and should not be presented as guaranteed predictions or as a validated machine-learning model.
+This project provides descriptive, segment-level decision support. It does not predict an individual customer’s future response, assign customer-level response probabilities, or contain a validated machine-learning model.
 
 ## Repository Contents
 
