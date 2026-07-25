@@ -20,15 +20,6 @@ The dashboard has no global filters, so the KPI cards and core campaign-history 
 - Customers who accepted at least one previous campaign
 - Total customers
 
-### Dashboard visuals
-
-1. Shows how the likelihood of responding to the latest campaign changes according to the number of previous campaigns a customer accepted.
-2. Compares latest and previous campaign response rates across customer age groups, income bands, or spending levels selected from a dropdown.
-3. Compares the total number of purchases made through web, store, and catalogue channels to identify the most-used purchasing channel.
-4. Compares average spending across product categories for latest-campaign responders and non-responders to identify products that may be suitable for future promotions.
-5. Shows how the latest campaign response rate varies according to the number of days since a customer’s last purchase, helping identify the best time to contact customers.
-6. Compares the latest campaign response rate across discount-purchase groups to help distinguish customers suited to discount-led offers from those suited to premium or value-based promotions.
-
 The dashboard displays the exact Low, Medium, High, and Very High spending-band definitions beside the spending view.
 
 The recommendation panel connects these findings to future campaign decisions:
