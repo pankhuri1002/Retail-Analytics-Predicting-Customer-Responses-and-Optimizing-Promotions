@@ -11,7 +11,7 @@ This business analytics project examines how customer characteristics, spending,
 The dashboard has no global filters, so the KPI cards and core campaign-history view always show the complete customer population. Two chart-specific controls support focused analysis without changing the rest of the dashboard:
 
 - A dropdown switches the response comparison between age, income, and spending.
-- An age-group selector applies only to the preferred purchase-channel chart.
+- An age-group selector applies only to the purchases-by-channel chart.
 
 ### KPI widgets
 
@@ -24,7 +24,7 @@ The dashboard has no global filters, so the KPI cards and core campaign-history 
 
 1. Latest response likelihood by number of previous campaigns accepted
 2. Latest response and previous acceptance by age, income, or spending
-3. Preferred purchase channel: web, store, catalogue, or tied channels
+3. Total purchases by channel: web, store, and catalogue
 4. Product-category spending: latest responders vs non-responders
 5. Latest response rate by recency
 6. Latest and previous campaign response by customer tenure cohort
@@ -35,7 +35,7 @@ The recommendation panel connects these findings to future campaign decisions:
 
 - who to prioritize using previous response history and recency;
 - what to promote using product-category spending;
-- where to deliver the offer using preferred purchase channel; and
+- how customers distribute purchases across web, store, and catalogue; and
 - how to adapt loyalty or welcome messaging using customer tenure.
 
 The source version is available at [`dashboard/index.html`](dashboard/index.html). It is a self-contained interactive HTML file and can also be downloaded and opened in a browser.
@@ -54,7 +54,7 @@ The source version is available at [`dashboard/index.html`](dashboard/index.html
 
 - Prioritize customers who accepted one or more earlier campaigns.
 - Within that audience, give additional priority to high spenders and recently engaged customers.
-- Match the offer to the product categories responders value most and deliver it through the customer's preferred purchase channel.
+- Match the offer to the product categories responders value most and use overall channel purchase volume to guide channel-specific campaign investment.
 - Use loyalty-led messaging for established customers and welcome or education-led offers for newer customers.
 - Use age and income only as supporting segmentation factors.
 - Test the prioritized audience against a control group before scaling the campaign.
