@@ -6,12 +6,12 @@ This business analytics project examines how historical customer characteristics
 
 ## Interactive Dashboard
 
-[Open the interactive campaign response dashboard](https://retail-promotion-response-dashboard.arpit2432.chatgpt.site)
+[Open the interactive campaign response dashboard](https://pankhuri1002.github.io/Retail-Analytics-Predicting-Customer-Responses-and-Optimizing-Promotions/)
 
 The dashboard has no global filters, so the KPI cards and core campaign-history view always show the complete customer population. Two chart-specific controls support focused analysis without changing the rest of the dashboard:
 
 - A dropdown switches the response comparison between age, income, and spending.
-- An age-group selector applies only to the purchases-by-channel chart.
+- An age-group selector applies only to the purchases-by-sales-channel chart.
 
 ### KPI widgets
 
@@ -63,6 +63,7 @@ This project provides descriptive, segment-level decision support. It does not p
 ├── data/
 │   └── marketing_campaign.xlsx
 ├── docs/
+│   ├── index.html
 │   ├── Business_Requirements_Document.md
 │   └── Data_Quality_Report.md
 └── README.md
