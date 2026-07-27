@@ -48,7 +48,7 @@ The source version is available at [`dashboard/index.html`](dashboard/index.html
 - Within that audience, give additional priority to high spenders and customers who purchased recently.
 - Match promotions to product interests, particularly the categories on which historically higher-response segments spend most, rather than sending one generic offer.
 - Use store, web, and catalogue purchase volumes to guide channel investment, while avoiding the assumption that purchase channel is the same as communication preference.
-- Use premium products, loyalty rewards, or exclusive benefits for customers who usually purchase without discounts; use clear coupons or limited-time deals for frequent discount buyers.
+- Use premium products, loyalty rewards, or exclusive benefits for customers who usually purchase without discounts; use clear coupons or limited-time deals for frequent discount buyers. Because the no-discount group contains only 46 customers, test its offer strategy on a small group before scaling.
 - Use age and income only as supporting segmentation factors.
 - Test each prioritized group against a control group before scaling the campaign.
 - Track response rate, incremental sales, conversion value, and campaign cost in future campaigns to validate targeting effectiveness.
