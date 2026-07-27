@@ -31,8 +31,8 @@ To support this objective, the project will measure campaign KPIs, compare respo
 
 - Analyze relevant customer and behavioural details such as age, income, recency, spending, purchase channels, and discount-purchase behaviour.
 
-- Study product spending, web visits, deal purchases, and purchases made
-  through web, catalog, and store channels.
+- Study product spending, deal purchases, and purchases made through web,
+  catalog, and store channels.
 
 - Compare acceptance of previous campaigns with response to the latest
   campaign.
@@ -87,7 +87,7 @@ enhancement.
 | BR-03  | High         | Compare response across customer details, including age, income, and recency.                                                   | Identify customer groups with different response patterns.           |
 | BR-04  | High         | Compare response with product spending and purchases made through web, catalog, store, and deal channels.                       | Understand how spending and purchase behavior relate to response.    |
 | BR-05  | High         | Create an interactive dashboard with chart-specific controls and show both customer count and response rate when comparing groups. | Make the dashboard easy to explore and avoid misleading comparisons. |
-| BR-06  | Medium       | Compare acceptance across previous campaigns and the latest campaign using clear labels.                                        | Understand how campaign response has differed across campaigns.      |
+| BR-06  | Medium       | Analyse the relationship between the number of previous campaigns accepted and response to the latest campaign, using clear labels. | Understand whether previous campaign history is associated with the latest response. |
 | BR-07  | Medium       | Summarize the main findings and recommend customer groups for future campaign testing.                                          | Support better targeting decisions without overstating the results.  |
 | BR-08  | Low          | Provide short instructions explaining the dashboard filters and measures.                                                       | Help users understand and reuse the dashboard.                       |
 
